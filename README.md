@@ -1,6 +1,6 @@
-# RoadGuard-AI 
+tures# RoadGuard-AI 
 
-The Road Damage Detection System is an AI-powered infrastructure maintenance solution that automates the detection and categorization of road damage using images captured from CCTV cameras, mobile phones, and user uploads. By leveraging state-of-the-art machine learning algorithms like YOLO (You Only Look Once), this system accurately identifies and classifies various types of road damages, including longitudinal cracks, transverse cracks, alligator cracks, and potholes.
+The RoadGuard-AI is an AI-powered infrastructure maintenance solution that automates the detection and categorization of road damage using images captured from CCTV cameras, mobile phones, and user uploads. By leveraging state-of-the-art machine learning algorithms like YOLO (You Only Look Once), this system accurately identifies and classifies various types of road damages, including longitudinal cracks, transverse cracks, alligator cracks, and potholes.
 
 #### video link: https://drive.google.com/drive/folders/113GMsWvdYQhvsIYLvfjYLQcyItEqbhaO?usp=sharing
 
@@ -9,7 +9,7 @@ The Road Damage Detection System is an AI-powered infrastructure maintenance sol
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- [Features Demo](#demo)
+- [Features Demo](#features-demo)
     - [Web Application (User Interface)](#web-application-user-interface)
       - [User Authentication:](#user-authentication)
       - [Login Page](#login-page)
@@ -61,7 +61,7 @@ The Road Damage Detection System revolutionizes infrastructure maintenance by ha
 
 Let's break down the product into its components: 
 
-- Web Application: Allows users to upload images of damaged roads for analysis.
+- Web Application: Allows users to upload images of damaged roads for analysis. 
 - Mobile Application: Enables users to capture and submit road damage images via their smartphones.
 - Mobile Application: Enables users to capture and submit road damage images via their smartphones.
 - Admin Dashboard: Provides an interactive interface for monitoring and managing detected road damages.
@@ -99,7 +99,9 @@ By streamlining the inspection process and facilitating timely repairs, the Road
  
 # Features Demo
 
-### Web Application (User Interface)
+## Web Application (User Interface)
+
+- PaveGuardian serves as the user interface, enabling secure authentication, image uploads, real-time damage detection, and cloud storage integration.
 
 ![Screenshot](output_screenshots/website/firstpage.png)
 
@@ -127,7 +129,9 @@ By streamlining the inspection process and facilitating timely repairs, the Road
 
 https://github.com/srujan-landeri/TRINIT-TheThreeMusketeers-ML/assets/66351075/5d6662ba-e8f5-4697-9e9d-3711ad23d43f
 
-### Mobile Application (User Interface)
+## Mobile Application (User Interface)
+
+- PaveDefender is the admin interface, providing secure access, filtering, searching, sorting, Google Maps integration, and real-time monitoring.
 
 #### User Authentication:
 - The mobile application also integrates Firebase Authentication for user authentication.
@@ -155,7 +159,7 @@ https://github.com/srujan-landeri/TRINIT-TheThreeMusketeers-ML/assets/66351075/5
 #### Choose Photo from Gallery
 <img width="300px" src = "output_screenshots/mobile_app/image_editable.jpeg"/>
 
-### Admin Dashboard (Web Interface)
+## Admin Dashboard (Web Interface)
 
 #### Authentication:
 - The admin dashboard requires authentication for access to sensitive data and functionalities.
@@ -187,7 +191,7 @@ https://github.com/srujan-landeri/TRINIT-TheThreeMusketeers-ML/assets/66351075/5
 
 https://github.com/srujan-landeri/TRINIT-TheThreeMusketeers-ML/assets/66351075/8500f26b-ba23-4d6f-a725-20244ccb0f10
 
-### Machine Learning Component (Backend)
+## Machine Learning Component (Backend)
 
 #### Object Detection:
 - The machine learning component of the system utilizes YOLO (You Only Look Once) object detection algorithm.
@@ -211,7 +215,7 @@ https://github.com/srujan-landeri/TRINIT-TheThreeMusketeers-ML/assets/66351075/8
 ![Screenshot](output_screenshots/model/firebase_storage.jpeg)
 
 
-### Model Performance
+## Model Performance
 
 #### Train Batch 0
 ![Screenshot](output_screenshots/model/model_performance/train_batch0.jpg)
@@ -251,7 +255,7 @@ https://github.com/srujan-landeri/TRINIT-TheThreeMusketeers-ML/assets/66351075/8
 #### Results
 ![Screenshot](output_screenshots/model/model_performance/results.png)
 
-### Deployment and Scalability
+## Deployment and Scalability
 
 #### Firebase Integration:
 - The Road Damage Detection System leverages Firebase services for authentication, cloud storage, and real-time database.
