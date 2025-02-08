@@ -7,7 +7,6 @@ The Road Damage Detection System is an AI-powered infrastructure maintenance sol
 # Table of Contents
 
 - [Project Overview](#project-overview)
-- [What the Project Does](#What-the-Project-Does)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Features Demo](#demo)
@@ -56,13 +55,32 @@ The Road Damage Detection System is an AI-powered infrastructure maintenance sol
       - [Continuous Monitoring and Improvement:](#continuous-monitoring-and-improvement)
       
 
-# Problem Statement
-Manual inspection of road conditions is a time-consuming and labor-intensive task, leading to delays in identifying and repairing damaged roads. The goal is to develop a classification model capable of automatically detecting and categorizing road damage from images (captured through CC cameras,phone,etc.).
 
-# Idea
+# Project Overview
 The Road Damage Detection System revolutionizes infrastructure maintenance by harnessing the power of modern technology. The live feeds from CCTV cameras can be directly fed into the backend/model, to detect the damaged roads. Also through a seamless integration of web and mobile interfaces, users can effortlessly upload images of damaged roads, enabling swift identification and categorization of road damages. Leveraging state-of-the-art machine learning algorithms, such as YOLO (You Only Look Once), the system accurately detects and locates various types of road damages, including longitudinal cracks, transverse cracks, alligator cracks, and potholes. An intuitive admin dashboard provides administrators with a comprehensive overview of the uploaded road data, empowering them to efficiently manage and visualize the road damages on an interactive map. By streamlining the inspection process and facilitating timely repairs, the Road Damage Detection System ensures safer and well-maintained road networks, ultimately enhancing infrastructure management and road safety for communities worldwide.
 
-Let's break down the product into its components: the web application for users to upload photos, the mobile app for the same purpose, and the admin dashboard for managing and visualizing the data.
+Let's break down the product into its components: 
+
+- Web Application: Allows users to upload images of damaged roads for analysis.
+- Mobile Application: Enables users to capture and submit road damage images via their smartphones.
+- Mobile Application: Enables users to capture and submit road damage images via their smartphones.
+- Admin Dashboard: Provides an interactive interface for monitoring and managing detected road damages.
+- Machine Learning Backend: Processes uploaded images, detects damage using YOLO, and categorizes results.
+
+By streamlining the inspection process and facilitating timely repairs, the Road Damage Detection System ensures safer and well-maintained road networks, enhancing infrastructure management and public safety.
+
+
+# Features
+- Automates road damage detection using machine learning with YOLO object detection.
+- Accepts image inputs from CCTV feeds, web uploads, and mobile captures.
+- Detects, classifies, and maps road damages using geo-location data.
+- Provides real-time processing, instant feedback, and cloud storage integration.
+- Features user authentication, secure login, and image management via Firebase.
+- Offers a mobile app with camera/gallery upload and seamless authentication.
+- Includes an admin dashboard with filtering, searching, sorting, and Google Maps integration.
+- Supports secure cloud deployment on Firebase, AWS, Google Cloud, or Azure.
+- Ensures continuous monitoring, updates, and user feedback integration.
+
 
 # Tech Stack
 - Frontend:
@@ -78,6 +96,8 @@ Let's break down the product into its components: the web application for users 
 - Deployment:
   - Firebase Hosting
   - AWS / Google Cloud / Azure (for future scaling)
+ 
+# Features Demo
 
 ### Web Application (User Interface)
 
