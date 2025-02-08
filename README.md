@@ -1,4 +1,4 @@
-tures# RoadGuard-AI 
+# RoadGuard-AI 
 
 The RoadGuard-AI is an AI-powered infrastructure maintenance solution that automates the detection and categorization of road damage using images captured from CCTV cameras, mobile phones, and user uploads. By leveraging state-of-the-art machine learning algorithms like YOLO (You Only Look Once), this system accurately identifies and classifies various types of road damages, including longitudinal cracks, transverse cracks, alligator cracks, and potholes.
 
