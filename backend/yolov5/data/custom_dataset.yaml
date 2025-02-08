@@ -1,0 +1,5 @@
+train: C:\Users\nikhi\OneDrive\Documents\NITHackathon\dataset\images\train
+val: C:\Users\nikhi\OneDrive\Documents\NITHackathon\dataset\images\test
+
+nc: 4  
+names: ['D20', 'D40', 'D10', 'D00']  
