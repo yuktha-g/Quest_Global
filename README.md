@@ -6,10 +6,10 @@ The Road Damage Detection System is an AI-powered infrastructure maintenance sol
 
 # Table of Contents
 
-- [Project Overview](#project_overview)
-- [What the Project Does](#What_the_Project_Does)
+- [Project Overview](#project-overview)
+- [What the Project Does](#What-the-Project-Does)
 - [Features](#features)
-- [Tech Stack](#tech_stack)
+- [Tech Stack](#tech-stack)
 - [Features Demo](#demo)
     - [Web Application (User Interface)](#web-application-user-interface)
       - [User Authentication:](#user-authentication)
@@ -64,7 +64,7 @@ The Road Damage Detection System revolutionizes infrastructure maintenance by ha
 
 Let's break down the product into its components: the web application for users to upload photos, the mobile app for the same purpose, and the admin dashboard for managing and visualizing the data.
 
-### Tech Stack
+# Tech Stack
 - Frontend:
   - Web: React.js, Tailwind CSS, Firebase Authentication
   - Mobile: React Native, Firebase Authentication, Camera API
