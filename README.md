@@ -101,7 +101,7 @@ By streamlining the inspection process and facilitating timely repairs, the Road
 
 ## Web Application (User Interface)
 
-- PaveGuardian serves as the user interface, enabling secure authentication, image uploads, real-time damage detection, and cloud storage integration.
+### PaveGuardian serves as the user interface, enabling secure authentication, image uploads, real-time damage detection, and cloud storage integration.
 
 ![Screenshot](output_screenshots/website/firstpage.png)
 
@@ -131,7 +131,7 @@ https://github.com/srujan-landeri/TRINIT-TheThreeMusketeers-ML/assets/66351075/5
 
 ## Mobile Application (User Interface)
 
-- PaveDefender is the admin interface, providing secure access, filtering, searching, sorting, Google Maps integration, and real-time monitoring.
+### PaveDefender is the admin interface, providing secure access, filtering, searching, sorting, Google Maps integration, and real-time monitoring.
 
 #### User Authentication:
 - The mobile application also integrates Firebase Authentication for user authentication.
